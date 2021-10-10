@@ -1,0 +1,13 @@
+.my-banner {
+  color: white;
+  font-size: 18px;
+  }
+
+.my-banner > .container > h1 {
+  margin: 100px 0 0 0;
+}
+
+.my-banner > .container > p {
+  margin-bottom: 50px;
+  color: #908a76;
+}
