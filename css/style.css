@@ -1,0 +1,19 @@
+
+@import url("components/banner.css");
+
+/* Utilities */
+body {
+  margin: 50;
+  font-family: 'Merriweather', serif;
+  background-color: #004d79;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'agrandir', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
