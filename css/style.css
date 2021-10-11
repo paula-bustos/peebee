@@ -3,15 +3,31 @@
 
 /* Utilities */
 body {
-  margin: 50;
+  margin: 100;
   color: whitesmoke;
   font-family: font-family: 'Work Sans', sans-serif;
+  letter-spacing: 1px;
   background-color: #121888;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  margin: 60;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: font-family: 'Work Sans', sans-serif;
+  letter-spacing: 1px;
+  background-color: #121888;
+}
+
+h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  color: #FFFFFF;
+} 
+
+h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   color: #C4C4C4;
 }
 
@@ -20,8 +36,16 @@ a {
   color: #FFFFFF;
 }
 a:hover {
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: #DFAF1D;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+  color: #F3DCDE;
+  margin: 60;
+}
 /* Custom design below! */
