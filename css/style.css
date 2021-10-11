@@ -6,16 +6,22 @@ body {
   margin: 50;
   color: whitesmoke;
   font-family: font-family: 'Work Sans', sans-serif;
-  background-color: #1A298E;
+  background-color: #121888;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   color: #C4C4C4;
 }
 
 a {
   text-decoration: none;
+  color: #FFFFFF;
+}
+a:hover {
+  text-decoration: none;
+  color: #DFAF1D;
 }
 
 /* Custom design below! */

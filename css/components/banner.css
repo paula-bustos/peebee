@@ -1,6 +1,7 @@
 .my-banner {
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
   }
 
 .my-banner > .container > h1 {
