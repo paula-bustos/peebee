@@ -11,17 +11,17 @@ body {
 }
 
 h1 {
-  margin: 60;
+  margin: 30;
   color: whitesmoke;
-  font-size: 50px;
-  font-family: 'Arimo', sans-serif, bold 700;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif, regular;
   letter-spacing: 1px;
   background-color: #121888;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #FFFFFF;
 } 
 
@@ -34,7 +34,9 @@ h3, h4 {
 a {
   text-decoration: none;
   color: #FFFFFF;
+  margin: 30;
 }
+
 a:hover {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
