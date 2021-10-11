@@ -4,12 +4,14 @@
 /* Utilities */
 body {
   margin: 50;
-  font-family: 'Merriweather', serif;
-  background-color: #004d79;
+  color: whitesmoke;
+  font-family: font-family: 'Work Sans', sans-serif;
+  background-color: #1A298E;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'agrandir', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #C4C4C4;
 }
 
 a {
