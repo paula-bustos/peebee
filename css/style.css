@@ -112,31 +112,31 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #3f84a8;
   color: #fff;
 }
 
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: #3f84a8 !important;
 }
 
 .btn-primary:hover {
-  background: #542cb7;
+  background: #3f84a8;
 }
 
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: #3f84a8 !important;
   box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #dfaf1d;
   font-weight: bold;
 }
 
 .btn-transparent:active, .btn-transparent:hover {
-  color: #41228e;
+  color: #dfaf1d;
 }
 
 body {
@@ -145,12 +145,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #542cb7;
+  background: #29527a;
   color: #fff;
 }
 
 ::selection {
-  background: #542cb7;
+  background: #29527a;
   color: #fff;
 }
 
@@ -199,11 +199,11 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #41228e !important;
+  color: #29527a !important;
 }
 
 a:hover {
-  color: #41228e;
+  color: #29527a;
 }
 
 
@@ -259,7 +259,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
+  background: #29527A !important;
 }
 
 .bg-gray {
@@ -267,11 +267,11 @@ a:hover {
 }
 
 .text-primary {
-  color: #41228e !important;
+  color: #57a3bc !important;
 }
 
 .text-color {
-  color: #4c4c4c;
+  color: #29527a;
 }
 
 .text-dark {
@@ -347,7 +347,7 @@ a:hover {
 }
 
 .bg-dark {
-  background-color: #222222 !important;
+  background-color: #29527a !important;
 }
 
 /* icon */
@@ -404,7 +404,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #41228e;
+  border-color: #57a3bc;
   outline: 0;
   box-shadow: none !important;
 }
@@ -615,7 +615,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover {
-  background: #41228e;
+  background: #3f84a8;
 }
 
 .hover-bg-primary:hover * {
@@ -624,7 +624,7 @@ textarea.form-control {
 
 .active-bg-primary {
   transition: .3s ease;
-  background: #41228e;
+  background: #3f84a8;
 }
 
 .active-bg-primary * {
