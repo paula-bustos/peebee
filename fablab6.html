@@ -75,18 +75,162 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h3 class="font-tertiary mb-5">-.</h3>
-        <p class="font-secondary">January 29, 2022
+        <h3 class="font-tertiary mb-5">ELECTRONICS DESIGN.</h3>
+        <p class="font-secondary">March 19, 2022
         </p>
         <div class="content">
           
-          <strong>Text.</p>
           
-          <p>Text.</p>
-          <blockquote>Text.</blockquote>
+          <p>Understanding the basic components of electronics in order to design a PCB. There are some programs you can use for electronics design like Autodesk Eagle, KiCad or Fritzing. We used the software KiCad to design our PCB. First we need to have our concept ready, defining what we want to achieve. Then we start designing the shcematics and transforming it into the PCB. After that we end up with an svg file to create a png for the machine to mill it and afterwards solder it.</p>
+
+          <p>I started by following a  tutorial on making a simple pcb design to light up some leds with switches to familiarize with the software and the principles of electronics. In KiCad I started by laying out all the components I need. The basic shortcuts you need to know are 'M' while your mouse is on top of the object you wish to move and then move it to where you want and 'R' to rotate that object.</p>
+
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-02.png" alt="post-thumb">
           
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">PCB DESIGN.</h2>
+      </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-02.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">1.</h4>
+            <p class="cars-text">I clicked the annotate symbol in order to give numbers to the components. Afterwards I right clicked in every component to edit the name and untick the visible box so it would only display the letter and number and not all the technical details. Making the layout easier to navigate.</p>
+          </div>
+        </article>
+      </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-03.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">2.</h4>
+            <p class="cars-text">In this image I now have all the components I will need for this pcb. I clicked annotate once again with all the components and made sure the order was correct. Then I created the neural netlist and saved it.</p>
+          </div>
+        </article>
+      </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-04.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">3.</h4>
+            <p class="cars-text">Once you have it you select the icon of the pcb layout editor and it directs you to a new blank page. You open your saved neural netlist and now the components will be laid out.</p>
+          </div>
+        </article>
+      </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-05.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">4.</h4>
+            <p class="cars-text">Once you have all the components laid out it could like kind of messy so you can use CTRL F to find the name of the component and rearrange it.</p>
+          </div>
+        </article>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-06.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">5.</h4>
+            <p class="cars-text">After organizing everything this is the result I got.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-07.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">6.</h4>
+            <p class="cars-text">I added 4 mounting holes of 2.5 mm in each corner for the pcb and then I added a graphic line to select the boundary of my piece.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-08.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">7.</h4>
+            <p class="cars-text">Then I started connecting with wires all the pieces that needed to interconnect.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-09.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">8.</h4>
+            <p class="cars-text">Some wires were intersecting with others so what we have to do is use the 'V' or right click then place through via in order to create sort of bridges.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-10.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">9.</h4>
+            <p class="cars-text">After connecting everything I created a filled zone for the ground and duplicated it, pasted it in the same place and then edited and changed it for the backface layer.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-11.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">10.</h4>
+            <p class="cars-text">Before exporting be sure to check for errors in the Design Rule Check button.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-12.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">11.</h4>
+            <p class="cars-text">Now we create the plot files and we select the layers we want to export.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-13.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">12.</h4>
+            <p class="cars-text">After creating the plot files exporting the different layers we generate the drill files.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/kicadwebsite-14.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">13.</h4>
+            <p class="cars-text">You can check your pcb before exporting with the view-3d viewer.</p>
+          </div>
+        </article>
+      </div>
+
     </div>
   </div>
 </section>

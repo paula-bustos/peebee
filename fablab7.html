@@ -75,15 +75,140 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h3 class="font-tertiary mb-5">-.</h3>
-        <p class="font-secondary">January 29, 2022
+        <h3 class="font-tertiary mb-5">COMPUTER CONTROLLED MACHINING.</h3>
+        <p class="font-secondary">March 19, 2022
         </p>
         <div class="content">
           
-          <strong>Text.</p>
+          <strong>Learning about computer numerical control.</p>
           
-          <p>Text.</p>
-          <blockquote>Text.</blockquote>
+          <p>CNC machining is a manufacturing process which uses cutting tools that substract from the material (workpiece) in order to obtain a desired piece. CNC is more efficient than traditional fabrication methods because it reduces human error, helps us create more accurate cuts or patterns, it is better for more production. We first need to know what is our desired product in order to define which tool or technique we need to use. There are a number of programs you can use to 3d model your object and then translate to the code needed for the machine to read and follow.</p>
+
+          <p>In my case I used rhino which is already familiar. I designed a base for Vynil records in order to test how the joints work and how could I create an object without any screws or glue. This is the design I created.</p>
+
+          <img src="images/fablab/week7/recordbox-03.png" alt="author" class="img-fluid w-100 rounded-lg">
+
+          <img src="images/fablab/week7/recordbox-04.png" alt="author" class="img-fluid w-100 rounded-lg">
+
+          <h5>I assembled the piece in 3D in order to see if all the joints fitted well together and then created the 2D plans with the command Make2D by selecting each piece.</h5>
+
+          
+      <section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">CNC CUTTING.</h2>
+      </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/recordbox-01.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">FILE.</h4>
+            <p class="cars-text">I laid them out in a rectangle of 1200x1200 mm which is what we had for each of us. The tool that we used was 6mm so I made sure I left a space of more than 12 mm between each piece.</p>
+          </div>
+        </article>
+      </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/recordbox-02.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">FILE FIXING.</h4>
+            <p class="cars-text">As you can see, I had to make bone cuts in the pieces which had sharp 90 degree angles in order for the cnc to pass clearly through that part. They were fillets of 3mm.</p>
+          </div>
+        </article>
+      </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnc2.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">RhinoCAM.</h4>
+            <p class="cars-text">After setting the file we opened it on RhinoCAM so we could start making the code for the cnc. We set up first the box which was the measurements of the plywood we would use. We went to set up and separated by layers our file to identify which would be pocketing or profiling, inner cut or outside cut.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnc3.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">TOOL.</h4>
+            <p class="cars-text">We defined the properties for the machine and set up the tool we were going to use. In this case we were using a 6mm CMT orange tools for downcut 198.660.11. We searched the parameters needed for this tool on their site.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnc1.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">EXPORTING CODE.</h4>
+            <p class="cars-text">After having set the parameters, box and tool we defined the layers to see which would be cut first and what type of cut. We needed to put also some bridges between the pieces so they wouldn't fly away and put screws as well. Once we were ready we ran a simulation and checked everything was correct and then we exported the screws layer with the post option and then the rest of the layers in another file.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnc5.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">CNC.</h4>
+            <p class="cars-text">We opened the screws file first in the CNC and callibrated the machine in the Z and X axis. Then we started the job and it made the drills to indicate where the screws would go.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnc6.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">SCREWS.</h4>
+            <p class="cars-text">Drilling the screws on to the marks done in the board, being careful to drill in the proper position not to harm the screw so they can be removed afterwards.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnc8.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">JOB.</h4>
+            <p class="cars-text">After drilling the screws we were ready to send the job so we just pressed start. In the middle of the job we accidentally pressed the emergency stop button. We had to open the code and erase the instructions already done so it could restart from where we left it and send it again.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnc7.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">CUT.</h4>
+            <p class="cars-text">After almost two hours we finally got the cut. We checked first if the cut went all the way through before moving the board and removing the screws. Some  pieces were not cut all the way through so we erased from the file the pieces already cut and ran the cnc again only one time in the remaining pieces. We had to do this twice and then we were able to take them out but some of them didn't cut properly so I needed to sand them.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week7/cnccut.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">PIECES.</h4>
+            <p class="cars-text">This is the cut we got which still needs sanding before assembling. You can see here the pocketing and the profiling. Plywood can be a tricky material. As it has many layers some of them start coming off with some cuts which is a bit annoying but these could be fixed post processing or adjusting the parameters.</p>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+          
+
+          <blockquote>I enjoyed this video about plywood a lot and it helped me understand better the material and how to work with it so I'm leaving it here for you to watch. Enjoy!.</blockquote>
+
+          <iframe title="vimeo-player" src="https://player.vimeo.com/video/44947985?h=9d3f66e4a2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           
         </div>
       </div>
