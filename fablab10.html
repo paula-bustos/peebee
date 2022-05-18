@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Positive Tourism | Paula Bustos</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">INSPO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">DESIGN SPACE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">FABLAB</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">WEEK 10.</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="font-tertiary mb-5">OUTPUT DEVICES.</h3>
+        <p class="font-secondary">May 12, 2022
+        </p>
+        <div class="content">
+          
+          
+          <p>For this week of output devices I continued developing the pcb I designed and programmed it with the LEDs strip to work as our termometer. The termistor and button would be in this case the input and the LEDs the output. The LEDs are connected in a circular way so they can light up according to the round display we designed depending on which temperature the oven is in.</p>
+
+
+          <section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">PROCESS.</h2>
+      </div>
+
+      <p>After exporting our files from the <a href="http://modsproject.org/">mods project</a>  website we went into the milling machine and selected a copper board and installed the bits. We started with the 1/64 bit to do the traces first. Setting the bit is tricky because the tip is very fragile and can break easily.</p>
+
+            <img src="images/fablab/week10/adjustingbitpcb.gif" alt="author" class="img-fluid w-100 rounded-lg">
+
+      <p>After inserting it you need to let it slide carefully until it touches the board. The board needs to be taped with double sided tape onto the mdf base so it stays in place. Once we have it touching the board then we set the Z as home. It is also important to set the XY to where you want to start the cut. We tried a technique to make sure the tip would go deep enough to mark the traces in which after setting Z you move up on the axis and activate the spinning and start going down until you see a bit of dust coming out meaning it's drilling into the board. We then loaded the file, first the traces, and sent the cut. After some cutting we realised it wasn't going all the way through.</p>
+
+        <img src="images/fablab/week10/incompletepcb.jpg" alt="author" class="img-fluid w-100 rounded-lg">
+
+      <p>We could still see the shiny metal in it meaning it was still conductive on the side of the tracks. We had to take it out and put another one that was more flat. We reset the parameters again and started the cut. This time it was going deeper down. After doing the tracks we changed the bit to 1/32 and sent the drills and then the outline cut.</p>
+
+          <img src="images/fablab/week10/pcbmillingtraces.gif" alt="author" class="img-fluid w-100 rounded-lg">
+
+          <img src="images/fablab/week10/pcbmilling.gif" alt="author" class="img-fluid w-100 rounded-lg">
+
+
+      <p>After the job was done we opened the machine, moved the Z up and remove the bit and then our board.</p>
+
+            <img src="images/fablab/week10/pcbfinal.png" alt="author" class="img-fluid w-100 rounded-lg">
+
+
+      <blockquote>Now we can solder our components to our pcb. </blockquote>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">OTHER ASSIGNMENTS</h2>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/IMG_7343.jpeg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="fablab8.html">Week 8.</a>
+            </h4>
+            <p class="cars-text">Embedded Programming.</p>
+            <a href="fablab8.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/IMG_8121.jpeg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="fablab10.html">Week 10.</a>
+            </h4>
+            <p class="cars-text">Output Devices.</p>
+            <a href="fablab10.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/IMG_8121.jpeg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="fablab11.html">Week 11.</a>
+            </h4>
+            <p class="cars-text">Inputs Devices.</p>
+            <a href="fablab11.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">paula.renata.bustos@students.iaac.net</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+34 69 50 53 276</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">Carrer de Pujades 102, Barcelona</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright ©<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

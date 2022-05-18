@@ -81,7 +81,7 @@
         <div class="content">
           
           
-          <p>Understanding the basic components of electronics in order to design a PCB. There are some programs you can use for electronics design like Autodesk Eagle, KiCad or Fritzing. We used the software KiCad to design our PCB. First we need to have our concept ready, defining what we want to achieve. Then we start designing the shcematics and transforming it into the PCB. After that we end up with an svg file to create a png for the machine to mill it and afterwards solder it.</p>
+          <p>Programming.</p>
 
           <p>I started by following a <a href="https://www.youtube.com/watch?v=ia2n7P3Csac">tutorial</a> on making a simple pcb design to light up some leds with switches to familiarize with the software and the principles of electronics. In KiCad I started by laying out all the components I need. The basic shortcuts you need to know are 'M' while your mouse is on top of the object you wish to move and then move it to where you want and 'R' to rotate that object.</p>
 
@@ -230,6 +230,74 @@
           </div>
         </article>
       </div>
+
+      <p>After this I decided to try to design my own PCB. At the moment I'm working with my design collaborative SlowLab on designing a Solar Oven. We want to add a thermometer so we can know the temperature reached by the oven. We first wired the electronics needed. In this case this is what we used and how we connected everything.</p>
+
+      <img class="rounded card-img-top" src="images/fablab/week6/electronics.jpg" alt="post-thumb">
+
+      <p>We needed an NTC thermistor to measure temperature, a push button that would detect when to start collecting the data and the neopixels that would display different colors depending on the temperature it reached. We connected all the electronics first to make sure it worked. After that we passed the schematics to KiCad.</p>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/schematicsthermo.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">1.</h4>
+            <p class="cars-text">We searched for the components on the fab library and placed them on the sketch. We organized them into boxes so we would have a clearer view of what was going on. We created labels to indicate where the connections would go. After we were happy with the connections we generated the netlist and opened the pcb design.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/pcbparameters.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">2.</h4>
+            <p class="cars-text">We changed some parameters for the pcb design.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/pcbdesign.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">3.</h4>
+            <p class="cars-text">After importing the netlist we organized the components in a neat way so we could occupy the least of space and the connections would be able to work properly. This part was very tricky because some connections were interrumpted by others so we had to sort of solve the puzzle in order to find the best suitable arrangement for all the connections.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/pcbexport.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">4.</h4>
+            <p class="cars-text">After creating the final wiring, we exported as svg and selected the layers we wanted to export, in this case we also selected Front Fab and all layers in a single file.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/pcbillustrator.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">5.</h4>
+            <p class="cars-text">Once we had our file exported we opened it on illustrator and separated by layers the drills, outcut, board and traces.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/fablab/week6/modsprojectdrills.png" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title">6.</h4>
+            <p class="cars-text">We went into the website <a href="http://modsproject.org/">mods project</a> and right clicked programs/open/pcb ce and then imported our png files from the illustrator file. One for the drills, another for traces and last one for cut. The parameters that we used were: 1.Traces-speed 3 and 1/64 bit. 2.Drills-speed 3 and 1/32 bit. 3.Outline cut- speed 1.5 and 1/32 bit.</p>
+          </div>
+        </article>
+      </div>
+
+
 
     </div>
   </div>
