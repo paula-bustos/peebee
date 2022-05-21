@@ -25,10 +25,10 @@ uint16_t t;
 #endif
 
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN        A5 // On Trinket or Gemma, suggest changing this to 1
+#define PIN        A0 // On Trinket or Gemma, suggest changing this to 1
 
 // How many NeoPixels are attached to the Arduino?
-#define NUMPIXELS 12 // Popular NeoPixel ring size
+#define NUMPIXELS 9 // Popular NeoPixel ring size
 
 // When setting up the NeoPixel library, we tell it how many pixels,
 // and which pin to use to send signals. Note that for older NeoPixel
@@ -41,7 +41,7 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 
 //BUTTON
-const int buttonPin = A2;     // the number of the pushbutton pin
+const int buttonPin = A4;     // the number of the pushbutton pin
 int buttonState = 0;         // variable for reading the pushbutton status
 
 bool start;

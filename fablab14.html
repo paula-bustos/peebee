@@ -76,63 +76,38 @@
     <div class="row">
       <div class="col-lg-12">
         <h3 class="font-tertiary mb-5">NETWORKING AND COMMUNICATIONS.</h3>
-        <p class="font-secondary">March 03, 2022
+        <p class="font-secondary">May 21, 2022
         </p>
         <div class="content">
           
           
-          <p>M-.</p>
+          <p>For this week's task I teamed up with Angel and we were guided by Jeremy. We started by following the <a href="https://learn.sparkfun.com/tutorials/serial-communication/all">tutorial</a> in the <a href="https://fablabbcn-projects.gitlab.io/learning/fabacademy-local-docs/material/extras/networking/wired/">fablab documentation.</a> We started by connecting our both ESP32 feather boards together with this diagram as a guide.</p>
+
+          <img src="images/fablab/week14/networks.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+
+          <img src="images/fablab/week14/IMG_2092.JPG" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+
+          <p>After connecting the wires we connected them to our computers and started writing a code. The tutorial led us to another example but we decided to try our own simple one with the help of a more experienced classmate: Jeremy. We started with this code to receive only from one board the information.</p>
+
+          <img src="images/fablab/week14/simplenetworktest.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+
+          <p>In this code you can see Serial is one board and Serial1 is the name of the other board. This code is only to read the information sent from Serial to Serial1.</p>
+
+          <img src="images/fablab/week14/networkcodetest.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+
+          <p>We modified it a bit so we could read the message sent by the arduino. When we wrote hello this is what we saw.</p>
+
+          <img src="images/fablab/week14/networktest1.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+
+          <p>As you can see we were seeing only numbers so we went to use the reference of the ASCII table. This translates numbers into characters. We needed to find a way of modifying the code so that this would be done automatically by it.</p>
+
+          <img src="images/fablab/week14/finalnetworkcode.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+
+          <p>We used in the code the incoming byte 13 which refers to carriage return which will help us translate the numbers into letters. We also added changes so we could see the name of the person sending the message and connected both boards both ways so the communication would go forwards and backwards. Here is a video of how it works.</p>
+
+          <img src="images/fablab/week14/workingnetworkhello.gif" alt="post-thumb" class="img-fluid rounded float-center mr-5 mb-4">
 
 
-          <section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">PROCESS.</h2>
-      </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="images/fablab/week9/moldingcasting-01.png" alt="post-thumb">
-          <div class="card-body">
-            <h4 class="card-title">INITIAL DESIGN.</h4>
-            <p class="cars-text">I started by defining the shape I wanted to obtain with the mold. In my case I wanted to design a piece which could contain an algae biomaterial which one could wear and while swimming with it it could dissolve into the water and release probiotics specially for coral regeneration.</p>
-          </div>
-        </article>
-      </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="images/fablab/week9/moldingcasting-02.png">
-          <div class="card-body">
-            <h4 class="card-title">SHAPE.</h4>
-            <p class="cars-text">Once I had the desired shape I took a while studying how could I pour my material in order for it to go through the mold and make the desired design.</p>
-          </div>
-        </article>
-      </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="images/fablab/week9/moldingcasting-03.png" alt="post-thumb">
-          <div class="card-body">
-            <h4 class="card-title">MOLD.</h4>
-            <p class="cars-text">After modelling the shape I created the mold in which it would be poured. I still need to figure out how to mold the small holes in which the chaing would be inserted.</p>
-          </div>
-        </article>
-      </div>
-
-
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="images/fablab/week9/moldingcasting-04.png" alt="post-thumb">
-          <div class="card-body">
-            <h4 class="card-title">CAST.</h4>
-            <p class="cars-text">I am playing a bit with the possibilities of the mold to see which could be the best option to pour the material and obtain the desired pieces. The tricky part in this one is the holes.</p>
-          </div>
-        </article>
-      </div>
-
-      <blockquote>As of now I am only missing the last solving of the mold and then creating the 3D file for 3D printing and then pouring the material. </blockquote>
           
         </div>
       </div>
